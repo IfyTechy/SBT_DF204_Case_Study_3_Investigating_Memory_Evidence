@@ -11,7 +11,7 @@ An individual digital forensics case study examining a Windows memory dump (`mem
 ## Repository Structure
 
 ```text
-memdump-forensics-investigation/
+SBT_DF204_Case_Study_3_Investigating_Memory_Evidence/
 ├── volatility_commands.sh     # Shell script containing Volatility 2 execution commands and output logs
 ├── timeline_memory.csv        # Exported chronological event timeline in UTC
 ├── report/
