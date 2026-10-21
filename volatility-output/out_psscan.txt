@@ -1,0 +1,11 @@
+Offset(P)          Name                PID   PPID PDB        Time created                   Time exited                   
+0x000000003e5ba860 explorer.exe       2524   2500 0x3efef320 2019-01-06 15:02:54 UTC+0000                                 
+0x000000003e63a030 chrome.exe         2388   2524 0x3efef540 2019-01-06 15:04:30 UTC+0000                                 
+0x000000003ee316b8 chrome.exe         2380   2388 0x3efef280 2019-01-06 15:04:30 UTC+0000                                 
+0x000000003efe8520 chrome.exe         1280   2388 0x3efef4a0 2019-01-06 15:04:30 UTC+0000                                 
+0x000000003fc02030 conhost.exe        2000    300 0x3efef420 2019-01-06 15:02:49 UTC+0000                                 
+0x000000003fcb4d28 chrome.exe         2912   2388 0x3efef680 2019-01-06 15:04:32 UTC+0000                                 
+0x000000003fcddd28 conhost.exe        3988    348 0x3efef6e0 2019-01-06 15:06:11 UTC+0000                                 
+0x000000003fceb6b0 chrome.exe          976   2388 0x3efef700 2019-01-06 15:06:23 UTC+0000                                 
+0x000000003fd12030 FTK Imager.exe     2596   2524 0x3efef760 2019-01-06 15:07:15 UTC+0000                                 
+0x000000003fd1fb08 cmd.exe            3996   2524 0x3efef6a0 2019-01-06 15:06:11 UTC+0000                                 
