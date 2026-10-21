@@ -53,42 +53,37 @@ Precautions taken: hashed the original before analysis, set it read-only (`chmod
 ## Repository structure
 
 ```
-DF204-CaseStudy3-Memory-Forensics/
+SBT_DF204_Case_Study_3_Investigating_Memory_Evidence/
 ├── README.md
 ├── .gitignore
-├── report/
-│   └── SBTDF204_CaseStudy3_202520850LE.docx      # final report
+├── SBTDF204_CaseStudy3_202520850LE.docx.pdf       # final report (includes screenshots, Appendix A)
 ├── integrity/
 │   ├── original_sha256.txt
 │   └── working_sha256.txt
-├── volatility-output/
-│   ├── out_imageinfo.txt                          # E02
-│   ├── out_pslist.txt                             # E03
-│   ├── out_netscan.txt                            # E04
-│   ├── out_timezone.txt                           # E05
-│   ├── out_cmdscan.txt                            # E06
-│   ├── out_consoles.txt                           # E07
-│   ├── out_hivelist.txt                           # E08
-│   ├── out_getsids_cmd.txt                        # E09
-│   ├── out_usbstor.txt                            # E10
-│   ├── out_mounteddevices.txt                     # E11
-│   ├── out_mountpoints2.txt                       # E12
-│   ├── out_strings_ip.txt, ip_strings.txt         # E13
-│   ├── out_profilelist.txt                        # E14
-│   ├── out_sam_names.txt                          # E15
-│   ├── out_strings_pid.txt                        # E16
-│   ├── out_profile_1000.txt, out_profile_1002.txt # E17
-│   ├── out_deviceclasses.txt                      # E18
-│   ├── out_mp2_F.txt, out_mp2_guid.txt            # E19
-│   ├── out_usbstor_instance.txt                   # E20
-│   ├── out_dc_usb_link.txt                        # E21
-│   ├── out_filescan_secret.txt, out_filescan_wide.txt  # E22
-│   ├── shellbags.html, shellbags_text.txt         # E23
-│   └── out_yara_ip.txt                            # limitation: Yara not installed
-├── screenshots/
-│   └── fig01_... to fig32_...                     # Appendix A figures
-└── docs/
-    └── evidence-log.md                            # optional: copy of Appendix B
+└── volatility-output/
+    ├── out_imageinfo.txt                          # E02
+    ├── out_pslist.txt                             # E03
+    ├── out_netscan.txt                            # E04
+    ├── out_timezone.txt                           # E05
+    ├── out_cmdscan.txt                            # E06
+    ├── out_consoles.txt                           # E07
+    ├── out_hivelist.txt                           # E08
+    ├── out_getsids_cmd.txt                        # E09
+    ├── out_usbstor.txt                            # E10
+    ├── out_mounteddevices.txt                     # E11
+    ├── out_mountpoints2.txt                       # E12
+    ├── out_strings_ip.txt, ip_strings.txt         # E13
+    ├── out_profilelist.txt                        # E14
+    ├── out_sam_names.txt                          # E15
+    ├── out_strings_pid.txt                        # E16
+    ├── out_profile_1000.txt, out_profile_1002.txt # E17
+    ├── out_deviceclasses.txt                      # E18
+    ├── out_mp2_F.txt, out_mp2_guid.txt            # E19
+    ├── out_usbstor_instance.txt                   # E20
+    ├── out_dc_usb_link.txt                        # E21
+    ├── out_filescan_secret.txt, out_filescan_wide.txt  # E22
+    ├── shellbags.html, shellbags_text.txt         # E23
+    └── out_yara_ip.txt                            # limitation: Yara not installed
 ```
 
 ## Methodology
